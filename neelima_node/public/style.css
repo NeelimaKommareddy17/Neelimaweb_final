@@ -29,14 +29,14 @@ body{
     background-color: rgb(23, 75, 127);
     color:whitesmoke;
 }
-header a{
+.topnav .anchor{
     text-decoration: none;
     color:black;
     font-weight: bold;
     padding:30px;
     text-align: center;
 }
-header{
+.topnav{
     grid-area: header;
     background-color: grey;
     justify-content: space-between;
@@ -147,13 +147,13 @@ header{
     padding-left: 3%;
 }
 
-.image img{
+.image .profilepic{
     height: 150px;
     width: 60%;
     margin: auto;
     padding: 5px;
 }
-img{
+.pics{
     height : 65px;
     width : 70px;
     padding: 10px;
@@ -195,10 +195,10 @@ img{
         padding: 5px;
     }
    
-    header{
+    .topnav{
         font-size: xx-small;
     }
-    .image img{
+    .image .profilepic{
         padding: 10px;
         height: 140px;
         width: 70%;
@@ -218,7 +218,7 @@ img{
         vertical-align: middle;
         line-height: 5px; 
     }
-    #educationimage img{    
+    #educationimage .pics{    
         margin-top: 50%;
     }
 
@@ -226,7 +226,7 @@ img{
         vertical-align: middle;
         line-height: 5px; 
     }
-    #skillsimage img{     
+    #skillsimage .pics{     
         margin-top: 50%;
     }
 
@@ -235,14 +235,14 @@ img{
         line-height: 5px; 
     }
 
-    #projectsimage img{     
+    #projectsimage .pics{     
         margin-top: 30%;
     }    
     #blogsimage{
         vertical-align: middle;
         line-height: 5px; 
     }
-    #blogsimage img{
+    #blogsimage .pics{
         margin-top: 10%;
     }
     #Interestsimage{
@@ -250,7 +250,7 @@ img{
         line-height: 5px; 
     }
 
-    #Interestsimage img{ 
+    #Interestsimage .pics{ 
         margin-top: 30%;
     }
     #Contactimg{
@@ -260,18 +260,18 @@ img{
     #Contact{
         font-size: medium;
     }
-    header a:not(:first-child) {display: none;}
-    header a{
+    .topnav .anchor:not(:first-child) {display: none;}
+    .topnav .anchor{
         float: left;
         font-size: 15px;
         padding: 2%;
     }
-    .topnav a.icon {
+    .topnav .icon {
         float: left;
         display: block;
     }
     .topnav.responsive {position: relative;}
-    .topnav.responsive a.icon {
+    .topnav.responsive .icon {
         position: absolute;
         right: 0;
         top: 0;
